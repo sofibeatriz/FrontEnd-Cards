@@ -78,6 +78,7 @@ li {
     margin: 40px;
     position: relative;
     text-align: center;
+    transition: ease 1s;
     width: 350px;
 }
 
@@ -96,15 +97,15 @@ li {
 
 
 .bg-batman{
-    background-image: url("/img/bg-b.jpg");
+    background-image: url("../img/bg-b.jpg");
 }
 
 .bg-ww {
-    background-image: url("/img/bg-w.jpg");
+    background-image: url("../img/bg-w.jpg");
 }
 
 .bg-sman {
-    background-image: url("/img/bg-s.jpg");
+    background-image: url("../img/bg-s.jpg");
 }
 
 i{

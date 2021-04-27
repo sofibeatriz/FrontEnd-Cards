@@ -47,12 +47,27 @@
     background-color: #888888;
     color: white;
     margin: 0 12px 20px 0;
+    transition: ease 1s;
+}
+.reset:hover {
+    background-color:#3b3b3b;
+    color: white ;
+    transition: ease 1s;
 }
 
 .enviar {
     background-color: #1CD1B0;
     color:white;
+    transition: ease 1s;
 }
+
+.enviar:hover {
+    background-color: #001D2D;
+    color:white;
+    transition: ease 1s;
+}
+
+
 
 .link a{
     color: #00669F;
