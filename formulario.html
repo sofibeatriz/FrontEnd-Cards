@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <title>Superheroes Cards</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/formulario.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="descuento">
+            <p>¡20% de descuento en todos los productos!</p>
+        </div>
+        <header class=sticky>
+            <div class="tienda">
+                <img src="/img/logo.png" alt="logo tienda">
+                <h1> Superheroes Cards Store </h1>
+            </div>
+        </header>
+
+        <main>
+            <div class="contenedor">
+                <h4>¡Añadí tu super!</h4>
+                <p>Agregá tu personaje favorito completando las siguientes opciones</p>
+                <form action="baseDedatos.html" method="POST">
+                    <div class="columna Uno">
+                        <label for="nombre">Nombre *</label>
+                        <input type="text" placeholder="Bruce Wayne" name="nombre" id="nombre" minlength="5"
+                            maxlength="50" required>
+                        <label for="fecha">Fecha</label>
+                        <input type="date" name="fecha" id="fecha">
+                        <textarea placeholder="Descripción" name="descripcion" id="descripcion"></textarea>
+                    </div>
+                    <div class="columna Dos">
+                        <label for="especie">Especie *</label>
+                        <select class="campos"  name="especie" id="especie"  required>
+                            <option value="extraterrestre">Extraterrestre</option>
+                            <option value="aracnido">Arácnido</option>
+                            <option value="acuatico">Acuático</option>
+                            <option value="volador">Volador</option> </select>
+
+                            <label for="archivo"> Subir archivo </label>
+                                <input  type="file" accept=".jpg, .png, .pdf" name="archivo" id="archivo"> 
+
+                            <p>Poderes</p>
+                            <label for="poderes"> <input type="checkbox" name="poderes" value="Volar" id="poderes"> Volar</label>
+                            <label for="poder1"> <input type="checkbox" name="poderes" value="Superinteligencia" id="poder1">
+                                Superinteligencia</label>
+                            <label for="poder2"><input type="checkbox" name="poderes" value="Vista de rayo láser" id="poder2">
+                                Vista de rayo láser</label>
+                            <label for="poder3"><input type="checkbox" name="poderes" value="Billetera gorda" id="poder3">
+                                Billetera gorda</label>
+
+                            <span>__________________________________________</span>
+                            <p>Tipo de personaje</p>
+                            <label for="tipoPersonaje1"><input type="radio" name="heroeOVillano" value="Héroe / Heroína" id="tipoPersonaje1">
+                                Héroe / Heroína</label>
+                            <label for="tipoPersonaje2"><input type="radio" name="heroeOVillano"
+                                    value="Villano / Villana" id="tipoPersonaje2"> Villano / Villana</label>
+                    </div>
+                    <input class="enviar" type="submit" value="Añadir" name="anadir">
+                </form>
+        </main>
+        <footer>
+            <p>Todos los derechos reservados a FRONT END 1</p>
+        </footer>
+</body>

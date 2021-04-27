@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400');
+ 
+.registro-nuevo {
+    width: 400px;
+    display: block;
+    margin: auto;
+    margin-top: 5%;
+}
+
+.login h3{
+    color: #333333;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 100px;
+    margin-bottom: 3%px;
+}
+
+.login{
+    margin: 0 auto;
+    padding-top: 100;
+    width: 400px;
+}
+
+.campos{
+    text-align: left;
+    padding: 10px;
+    border: solid 1.5px black;
+    display: block;
+    width: 100%;
+    margin-bottom:20px;
+}
+
+.button {
+    border: none;
+    border-radius: 80px;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0;
+    padding: 3%;
+    text-decoration: none;
+    text-align: center ;
+    width: 190px;
+}
+
+
+.reset {
+    background-color: #888888;
+    color: white;
+    margin: 0 12px 20px 0;
+    transition: ease 1s;
+}
+.reset:hover {
+    background-color:#3b3b3b;
+    color: white ;
+    transition: ease 1s;
+}
+
+.enviar {
+    background-color: #1CD1B0;
+    color:white;
+    transition: ease 1s;
+}
+
+.enviar:hover{
+    background-color:  #001D2D;
+    color: white ;
+    transition: ease 1s;
+}
+
+.link a{
+    color: #00669F;
+    letter-spacing: 1.5;
+    text-decoration: none;
+}
+
+.link{
+    font-size: 16px;
+    text-align: center;
+}
+

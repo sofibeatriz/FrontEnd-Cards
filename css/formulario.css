@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400');
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+ 
+
+.contenedor {
+    background-color: #00669F;
+    border-radius: 30px;
+    margin: 0 auto;
+    margin-top: 3%;
+    padding: 10px 1%;
+    width: 45%;  
+}
+
+h4{
+    color: white;
+    font-size: 25px;
+    margin: 20px 0 10px 0;
+    text-align: center;
+}
+
+.columna {
+    display: inline-block;
+    color: white;
+    font-size: 14px;
+    margin: 20px 5px 0 20px;
+    padding-bottom: 30px;
+    width: 40%;
+}
+
+.contenedor>p {
+    box-sizing: border-box;
+    color: white;
+    height: 45px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.Uno input {
+    border-radius: 10px;
+    border: none;
+    height: 100%;
+    margin: 7px  0 15px ;
+    width: 100%;
+    padding: 6%;
+    outline: none;
+}
+
+input:focus{
+    background-color: rgb(219, 219, 219) ;
+}
+textarea:focus{
+    background-color: rgb(219, 219, 219) ;
+}
+
+.Dos {
+    margin-top: -30px;
+}
+
+.Dos select{
+    border-radius: 10px;
+    border: none;
+    display: inline-block;
+    height: 100%;
+    margin: 10px 0 20px;
+    width: 100%;
+    padding: 5%;
+}
+
+.Dos p{
+    margin: 25px 0 9px ;
+}
+
+label {
+    display: block;
+    margin: 1%;
+    padding: 2%;
+}
+
+textarea {
+    border-radius: 15px;
+    margin: 20px 0;
+    padding: 7%;
+    height: 195px;
+    resize: none;
+    width: 100%;
+    outline: none;
+}
+
+.enviar{
+    background-color: #1CD1B0;
+    border: none;
+    border-radius: 80px;
+    color:white;
+    display:block;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 2%;
+    margin:0 auto;
+    margin-bottom: 3%;
+    text-align: center;
+    text-decoration: none;
+    width: 300px;
+    transition: ease 0.7s;
+}
+
+.enviar:hover{
+    background-color:#001D2D;
+    transition: ease 0.7s;
+}
