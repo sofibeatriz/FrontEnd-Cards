@@ -14,7 +14,6 @@
 </head>
 
 <body>
-    <header>
         <div class="descuento">
             <p>¡20% de descuento en todos los productos!</p>
         </div>
@@ -29,7 +28,7 @@
             <div class="contenedor">
                 <h4>¡Añadí tu super!</h4>
                 <p>Agregá tu personaje favorito completando las siguientes opciones</p>
-                <form action="index .html" method="POST">
+                <form action="index.html" method="POST">
                     <div class="columna Uno">
                         <label for="nombre">Nombre *</label>
                         <input type="text" placeholder="Bruce Wayne" name="nombre" id="nombre" minlength="5"
@@ -41,6 +40,7 @@
                     <div class="columna Dos">
                         <label for="especie">Especie *</label>
                         <select class="campos"  name="especie" id="especie"  required>
+                            <option value="">Seleccionar</option>
                             <option value="extraterrestre">Extraterrestre</option>
                             <option value="aracnido">Arácnido</option>
                             <option value="acuatico">Acuático</option>
@@ -67,6 +67,7 @@
                     </div>
                     <input class="enviar" type="submit" value="Añadir" name="anadir">
                 </form>
+            </div>
         </main>
         <footer>
             <p>Todos los derechos reservados a FRONT END 1</p>
